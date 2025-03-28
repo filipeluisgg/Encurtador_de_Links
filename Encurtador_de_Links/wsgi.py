@@ -11,6 +11,6 @@ import os
 
 from django.core.wsgi import get_wsgi_application
 
-os.environ.setdefault('DJANGO_SETTINGS_MODULE', 'Encurtador_de_Links.settings')
+os.environ.setdefault("DJANGO_SETTINGS_MODULE", "Encurtador_de_Links.settings")
 
 application = get_wsgi_application()
